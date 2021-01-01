@@ -1,2 +1,2 @@
 # SQL - Language of Databases
-This repository contains sql nippets
+This repository contains sql snippets
