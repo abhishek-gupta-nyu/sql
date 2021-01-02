@@ -1,0 +1,8 @@
+UPDATE dbo.TestStudents  
+SET     LASTNAME =  CASE  
+                        WHEN LASTNAME = 'AAA' THEN 'BBB' 
+                        WHEN LASTNAME = 'CCC' THEN 'DDD' 
+                        WHEN LASTNAME = 'EEE' THEN 'FFF' 
+                        ELSE LASTNAME
+                    END 
+WHERE   LASTNAME IN ('AAA', 'CCC', 'EEE')
